@@ -1,0 +1,32 @@
+*{ margin: 0; box-sizing: border-box;}
+button{ cursor: pointer;}
+label{ display: inline-block; margin: 0px 0px;}
+body{ font-family: system-ui, -apple-system, 
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+header{padding: 20px; background: rgb(223, 240, 73); text-align: center; }
+main{padding: 10px; background: rgb(223, 240, 73); text-align:center}
+footer{padding: 10px; background: #ccf; display: flex; justify-content: space-between; }
+
+.sp1{ padding: 20px; display: inline-flex;   background-color: rgb(215, 223, 250); margin: 10px;}
+.sp1 h2{
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: rgb(251, 6, 6);
+}
+.sp2{ padding: 20px; display: inline-flex; background-color: antiquewhite; margin: 10px;}
+.sp2 h2{
+        margin-bottom: 20px;
+        background-color: rgb(8, 8, 254);
+        text-align: center;
+}
+
+.btn{ background: #fff; padding: 6px 10px; border: 1px solid #000; border-radius: 15px;}
+.inp{ background: #fff; padding: 6px 10px; border: 1px solid #000; border-radius: 0px;}
+/* .active{ background: #222; color: #fff; } */
+/* .pattern{ border: 1px solid #000; margin: 10px 0;  padding: 10px; background: #fff; text-align: center;} */
+/* hr{ margin: 10px 0; bottom: none; border-bottom: 1px solid #000;} */
+.table, .pin{ border: 1px solid #666; margin: 10px 0; border-collapse: collapse;  }
+.table td, .table th, .pin td, .pin th{ border: 1px solid #666; padding: 5px; }
+
+/* .loader{ position: absolute; transform: translateY(-30%); display: none; } */
+/* .loader1{ position: absolute; transform: translateY(-30%); display: none; } */

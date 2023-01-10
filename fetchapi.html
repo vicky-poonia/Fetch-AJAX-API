@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Github and pincode api" />
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>API</h2>
+        </header>
+        <main>
+            <div class="cont">
+                <span class="sp1">
+                    <div class="sp11">
+                        <h2>AJAX API Call</h2>
+                        <!-- <table></table> -->
+                        <!-- <hr> -->
+
+                        <form action="" class="git">
+                            <label> Github Username:
+                                <input class="inp" type="text" name="user" required>
+                            </label>
+                            <button class="btn">Github Data</button>
+                            <span class="err"></span>
+                            <!-- <img class="loader" src="/loader.png" width="10" alt="Loading.."> -->
+                        </form>
+                        <ol></ol>
+                    </div>
+                    <!-- <hr> -->
+                </span>
+                <span class="sp2">
+                    <div class="sp22">
+                        <h2>Fetch API Call</h2>
+                        <form action="" class="pincode">
+                            <label> Pincode:
+                                <input class="inp" type="text" required pattern="^[0-9]{6}$" name="pin">
+                            </label>
+                            <button class="btn">Get Pincode</button>
+                            <span class="err2"></span>
+                            <!-- <img class="loader1" src="/loader.png" width="50" alt="Loading.."> -->
+                            <table class="pin">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>District</th>
+                                        <th>Division</th>
+                                        <th>State</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </form>
+                    </div>
+                </span>
+            </div>
+        </main>
+        <footer></footer>
+
+        <script src="./index.js"></script>
+</body>
+
+</html>
